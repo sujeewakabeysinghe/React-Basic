@@ -14,7 +14,9 @@ function App() {
       <FunTwo/>
       <Class/>
       <PropsOne name='One'/>
-      <PropsTwo componentName='Props' name='Two'/>
+      <PropsTwo componentName='Props' name='Two'>
+        <p>sujeewa</p>
+      </PropsTwo>
     </div>
   );
 }
