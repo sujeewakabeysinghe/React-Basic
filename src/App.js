@@ -3,7 +3,8 @@ import './App.css';
 import FunOne from './components/functionalComponent_1';
 import FunTwo from './components/functionalComponent_2';
 import Class from './components/classComponent';
-import Props from './components/props';
+import PropsOne from './components/props_1';
+import PropsTwo from './components/props_2'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <FunOne/>
       <FunTwo/>
       <Class/>
-      <Props name='sujeewa'/>
+      <PropsOne name='One'/>
+      <PropsTwo name='Two'/>
     </div>
   );
 }
