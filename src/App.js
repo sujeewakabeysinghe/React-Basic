@@ -18,7 +18,7 @@ function App() {
       <PropsTwo componentName='Props' name='Two'>
         <p>Props Two's Child!</p>
       </PropsTwo>
-      <PropsThree/>
+      <PropsThree name='Three'/>
     </div>
   );
 }
