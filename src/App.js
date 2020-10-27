@@ -6,6 +6,7 @@ import Class from './components/classComponent';
 import PropsOne from './components/props_1';
 import PropsTwo from './components/props_2';
 import PropsThree from './components/props_3';
+import StateOne from './components/state_1';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <p>Props Two's Child!</p>
       </PropsTwo>
       <PropsThree name='Three!'/> {/*props values cannot be changed after defined here, They are immutable*/}
+      <StateOne/>
     </div>
   );
 }
