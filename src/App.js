@@ -18,7 +18,7 @@ function App() {
       <PropsTwo componentName='Props' name='Two'>
         <p>Props Two's Child!</p>
       </PropsTwo>
-      <PropsThree name='Three!'/> {/*props values cannot be changed after defined here*/}
+      <PropsThree name='Three!'/> {/*props values cannot be changed after defined here, They are immutable*/}
     </div>
   );
 }
