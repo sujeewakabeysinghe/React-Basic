@@ -18,7 +18,7 @@ function App() {
       <PropsTwo componentName='Props' name='Two'>
         <p>Props Two's Child!</p>
       </PropsTwo>
-      <PropsThree name='Three!'/>
+      <PropsThree name='Three!'/> {/*props values cannot be changed after defined here*/}
     </div>
   );
 }
