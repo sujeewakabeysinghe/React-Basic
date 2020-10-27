@@ -15,7 +15,7 @@ function App() {
       <Class/>
       <PropsOne name='One'/>
       <PropsTwo componentName='Props' name='Two'>
-        <p>sujeewa</p>
+        <p>Props Two's Child</p>
       </PropsTwo>
     </div>
   );
