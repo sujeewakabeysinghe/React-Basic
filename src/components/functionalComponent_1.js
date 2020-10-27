@@ -2,7 +2,7 @@ import React from 'react'
 
 function FunctionalComponent_1() {
     return (
-        <h1>Finctional Component One!</h1>
+        <h1>Functional Component One!</h1>
     ) 
 }
 
