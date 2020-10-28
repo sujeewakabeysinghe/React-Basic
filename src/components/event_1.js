@@ -1,9 +1,14 @@
 import React from 'react' //rfce
 
 function event_1() {
+
+    function clickHandler() {
+        console.log('Click Event!')
+    }
+
     return (
         <div>
-            
+            <button onClick={clickHandler}>Event!</button> {/*do not add () becase this is a function not a function call*/}
         </div>
     )
 }
