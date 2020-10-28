@@ -9,6 +9,7 @@ import PropsThree from './components/props_3';
 import StateOne from './components/state_1';
 import StateTwo from './components/state_2';
 import EventOne from './components/event_1';
+import EventTwo from './components/event_2';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <StateOne/>
       <StateTwo/>
       <EventOne/>
+      <EventTwo/>
     </div>
   );
 }
