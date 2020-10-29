@@ -10,6 +10,8 @@ import StateOne from './components/state_1';
 import StateTwo from './components/state_2';
 import EventOne from './components/event_1';
 import EventTwo from './components/event_2';
+import EventBindingOne from './components/eventBinding_1';
+import EventBindingTwo from './components/eventBinding_2';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <StateTwo/>
       <EventOne/>
       <EventTwo/>
+      <EventBindingOne/>
+      <EventBindingTwo/>
     </div>
   );
 }
