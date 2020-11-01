@@ -12,6 +12,8 @@ import EventOne from './components/event_1';
 import EventTwo from './components/event_2';
 import EventBindingOne from './components/eventBinding_1';
 import EventBindingTwo from './components/eventBinding_2';
+import ParentComponent from './components/parentComponent';
+import ChildComponent from './components/childComponent';
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
       <EventTwo/>
       <EventBindingOne/>
       <EventBindingTwo/>
+      <ParentComponent/>
     </div>
   );
 }
