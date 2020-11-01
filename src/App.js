@@ -13,6 +13,7 @@ import EventTwo from './components/event_2';
 import EventBindingOne from './components/eventBinding_1';
 import EventBindingTwo from './components/eventBinding_2';
 import ParentComponent from './components/parentComponent';
+import Condition from './components/conditionalRendering';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <EventBindingOne/>
       <EventBindingTwo/>
       <ParentComponent/>
+      <Condition/>
     </div>
   );
 }
