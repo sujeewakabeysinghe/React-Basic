@@ -14,6 +14,7 @@ import EventBindingOne from './components/eventBinding_1';
 import EventBindingTwo from './components/eventBinding_2';
 import ParentComponent from './components/parentComponent';
 import Condition from './components/conditionalRendering';
+import List from './components/listRendering';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <EventBindingTwo/>
       <ParentComponent/>
       <Condition/>
+      <List/>
     </div>
   );
 }
