@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import ChildComponent from './childComponent';
 
 class parentComponent extends Component {
 
@@ -20,7 +21,7 @@ class parentComponent extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.greetParent}>Alert!</button>
+                <ChildComponent/>
             </div>
         )
     }
