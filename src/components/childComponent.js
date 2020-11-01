@@ -1,9 +1,10 @@
 import React from 'react'  //rfces
 
-function childComponent() {
+function childComponent(props) {
     return (
         <div>
-            <button>Child Button</button>
+            {/*<button onClick={props.greetHandlerProps}>Child Button</button>*/}
+            <button onClick={()=>props.greetHandlerProps('Child!')}>Child Button</button> {/*to pass a parameter*/}
         </div>
     )
 }
