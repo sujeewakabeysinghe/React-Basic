@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class conditionalRendering extends Component {
+class conditionalRendering extends Component {
 
     constructor(props) {
         super(props)
