@@ -22,7 +22,7 @@ function listRendering_2() {
     ]
 
     //const personList = persons.map(person=><h1>I'm {person.name}, {person.age} years old.</h1>)
-    const personList = persons.map(person=><Person person={person}/>)
+    const personList = persons.map(person=><Person key={person.id} person={person}/>) //when generating a list usign map, there shoud be a unique value assing to key props if not it will gives a warning message in inspect
 
     return <div>{personList}</div>
 

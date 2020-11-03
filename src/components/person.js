@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Person({name,age}) {
+function Person({person}) {
     return (
         <div>
-            <h1>I'm {name}, {age} years old.</h1>
+            <h1>I'm {person.name}, {person.age} years old.</h1>
         </div>
     )
 }
