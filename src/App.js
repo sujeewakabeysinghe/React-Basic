@@ -16,7 +16,9 @@ import './App.css';
 // import Condition from './components/conditionalRendering';
 // import ListOne from './components/listRendering_1';
 // import ListTwo from './components/listRendering_2';
-import ListThree from './components/listRendering_3'
+// import ListThree from './components/listRendering_3';
+import Style from './components/style'
+import StyleInline from './components/styleInline'
 
 function App() {
   return (
@@ -39,8 +41,11 @@ function App() {
       <ParentComponent/>
       <Condition/>
       <ListOne/> 
-      <ListTwo/> */}
+      <ListTwo/> 
       <ListThree/>
+      <Style/> without props regular way*/}
+      <Style className={true}/>
+      <StyleInline/>
     </div>
   );
 }
