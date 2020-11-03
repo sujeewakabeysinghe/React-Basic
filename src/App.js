@@ -15,7 +15,8 @@ import './App.css';
 // import ParentComponent from './components/parentComponent';
 // import Condition from './components/conditionalRendering';
 // import ListOne from './components/listRendering_1';
-import ListTwo from './components/listRendering_2';
+// import ListTwo from './components/listRendering_2';
+import ListThree from './components/listRendering_3'
 
 function App() {
   return (
@@ -37,8 +38,9 @@ function App() {
       <EventBindingTwo/>
       <ParentComponent/>
       <Condition/>
-      <ListOne/> */}
-      <ListTwo/>
+      <ListOne/> 
+      <ListTwo/> */}
+      <ListThree/>
     </div>
   );
 }
