@@ -17,8 +17,9 @@ import './App.css';
 // import ListOne from './components/listRendering_1';
 // import ListTwo from './components/listRendering_2';
 // import ListThree from './components/listRendering_3';
-import Style from './components/style'
-import StyleInline from './components/styleInline'
+// import Style from './components/style';
+// import StyleInline from './components/styleInline';
+import Form from './components/nextTen/form';
 
 function App() {
   return (
@@ -43,9 +44,10 @@ function App() {
       <ListOne/> 
       <ListTwo/> 
       <ListThree/>
-      <Style/> without props regular way*/}
+      <Style/> without props regular way
       <Style className={true}/>
-      <StyleInline/>
+      <StyleInline/> */}
+      <Form/>
     </div>
   );
 }
