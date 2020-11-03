@@ -1,6 +1,6 @@
 import React from 'react'
 
-function listRendering() {
+function listRendering_1() {
 
     const names = ['John','Ann','David']
     const nameList = names.map(name=><h1>{name}</h1>)
@@ -8,4 +8,4 @@ function listRendering() {
     return <div>{nameList}</div>
 }
 
-export default listRendering
+export default listRendering_1
