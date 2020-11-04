@@ -19,7 +19,8 @@ import './App.css';
 // import ListThree from './components/listRendering_3';
 // import Style from './components/style';
 // import StyleInline from './components/styleInline';
-import Form from './components/nextTen/form';
+// import Form from './components/nextTen/form';
+import LifeCycleA from './components/nextTen/lifeCycleA'
 
 function App() {
   return (
@@ -46,8 +47,9 @@ function App() {
       <ListThree/>
       <Style/> without props regular way
       <Style className={true}/>
-      <StyleInline/> */}
-      <Form/>
+      <StyleInline/> 
+      <Form/> */}
+      <LifeCycleA/>
     </div>
   );
 }
