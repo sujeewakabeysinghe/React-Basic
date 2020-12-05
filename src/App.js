@@ -25,7 +25,7 @@ import LifeCycleA from './components/nextTen/lifeCycleA'
 function App() {
   return (
     <div className="App">
-      <h1>App Component!</h1>
+      {/* <h1>App Component!</h1>
       <FunOne/>
       <FunTwo/>
       <Class/>
@@ -33,7 +33,7 @@ function App() {
       <PropsTwo componentName='Props' name='Two'>
         <p>Props Two's Child!</p>
       </PropsTwo>
-      <PropsThree name='Three!'/> {/*props values cannot be changed after defined here, They are immutable*
+      <PropsThree name='Three!'/> {/*props values cannot be changed after defined here, They are immutable
       <StateOne/>
       <StateTwo/>
       <EventOne/>
@@ -45,10 +45,10 @@ function App() {
       <ListOne/> 
       <ListTwo/> 
       <ListThree/>
-      <Style/> without props regular way
+      <Style/> {/*without props regular way
       <Style className={true}/>
-      <StyleInline/> 
-      <Form/>
+      <StyleInline/>
+      <Form/> */}
       <LifeCycleA/>
     </div>
   );
