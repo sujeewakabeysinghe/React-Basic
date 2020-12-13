@@ -20,7 +20,8 @@ import ListThree from './components/listRendering_3';
 import Style from './components/style';
 import StyleInline from './components/styleInline';
 import Form from './components/nextTen/form';
-import LifeCycleA from './components/nextTen/lifeCycleA'
+import LifeCycleA from './components/nextTen/lifeCycleA';
+import Fragment from './components/nextTen/fragment'
 
 function App() {
   return (
@@ -48,8 +49,9 @@ function App() {
       <Style/> {/*without props regular way
       <Style className={true}/>
       <StyleInline/>
-      <Form/> */}
-      <LifeCycleA/>
+      <Form/> 
+      <LifeCycleA/> */}
+      <Fragment/>
     </div>
   );
 }
