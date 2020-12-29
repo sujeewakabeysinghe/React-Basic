@@ -21,6 +21,7 @@ class parentComponent extends Component {
     }
 
     render() {
+        console.log('Parent Component!')
         return (
             <div>
                 <RegularComponent name={this.state.name}></RegularComponent>
