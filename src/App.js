@@ -12,7 +12,7 @@ import EventOne from './components/event_1';
 import EventTwo from './components/event_2';
 import EventBindingOne from './components/eventBinding_1';
 import EventBindingTwo from './components/eventBinding_2';
-import ParentComponent from './components/parentComponent';
+//import ParentComponent from './components/parentComponent';
 import Condition from './components/conditionalRendering';
 import ListOne from './components/listRendering_1';
 import ListTwo from './components/listRendering_2';
@@ -22,6 +22,7 @@ import StyleInline from './components/styleInline';
 import Form from './components/nextTen/form';
 import LifeCycleA from './components/nextTen/lifeCycleA';
 import Fragment from './components/nextTen/fragment'
+import ParentComponent from './components/nextTen/26/parentComponent';
 
 function App() {
   return (
@@ -50,8 +51,9 @@ function App() {
       <Style className={true}/>
       <StyleInline/>
       <Form/> 
-      <LifeCycleA/> */}
-      <Fragment/>
+      <LifeCycleA/> 
+      <Fragment/> */}
+      <ParentComponent/>
     </div>
   );
 }
