@@ -52,8 +52,8 @@ function App() {
       <StyleInline/>
       <Form/> 
       <LifeCycleA/> 
-      <Fragment/> */}
-      <ParentComponent/>
+      <Fragment/>
+      <ParentComponent/> */}
     </div>
   );
 }
