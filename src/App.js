@@ -23,8 +23,10 @@ import Form from './components/nextTen/form';
 import LifeCycleA from './components/nextTen/lifeCycleA';
 import Fragment from './components/nextTen/fragment'
 import ParentComponent from './components/nextTen/26/parentComponent';
+import RefcComponent from './components/nextTen/28/refcComponent';
 
 function App() {
+  console.log("App Component")
   return (
     <div className="App">
       {/* <h1>App Component!</h1>
@@ -54,6 +56,7 @@ function App() {
       <LifeCycleA/> 
       <Fragment/>
       <ParentComponent/> */}
+      <RefcComponent/>
     </div>
   );
 }
